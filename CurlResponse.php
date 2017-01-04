@@ -13,7 +13,9 @@ class CurlResponse {
     public $headerLines;
     public $code;
     public $body;
-    
+    /**
+     * Initialize Response with default data.
+     */
     function __construct() {
         $this->errorNumber = 0;
         $this->errorMessage = '';
